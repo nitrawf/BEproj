@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<link="stylesheet" href="static/style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css')}}">
+    <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico')}}">
+<style>
+    .bg{
+    	background-image: url('static/heart1.jpg');
+    	height: 100%;
+    	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    }
+    .transbox {
+  background-color: #000000;
+  opacity: 0.6;
+  height: 600px;
+  width: 800px;
+  filter: alpha(opacity=60); 
+  margin-left: 22%;
+  /* For IE8 and earlier */
+}
+.inputBox input{
+	width:60%;
+	height: 20px;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none; 
+	background: transparent;
+}
+
+
+.ghost-button-rounded-corners {
+  display: inline-block;
+  width: 170px;
+  padding: 8px;
+  color: white;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background: transparent;
+}
+.ghost-button-rounded-corners:hover,
+.ghost-button-rounded-corners:active {
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+}
+</style>
+	<title></title>
+</head>
+<body>
+<div class="bg" >
+	<br><br><br><br>
+	<div class="transbox"><br>
+<b style="color: white;font-size: 35px;margin-left: 27%">Form For Heart Test</b><br><br>
+
+	<div class="inputBox">
+		<label style="color: red;font-size: 25px;"><b>Username<b></label>
+		<input type="text" name="" required="" style="margin-left: 50px;">
+	</div><br>
+
+	
+	<div class="inputBox">
+		<label style="color: red;font-size: 25px;"><b>Username<b></label>
+		<input type="text" name="" required="" style="margin-left: 50px;">
+	</div><br>
+
+
+	<div class="inputBox">
+		<label style="color: red;font-size: 25px;"><b>Username<b></label>
+		<input type="text" name="" required="" style="margin-left: 50px;">
+	</div><br>
+
+
+	<div class="inputBox">
+		<label style="color: red;font-size: 25px;"><b>Username<b></label>
+		<input type="text" name="" required="" style="margin-left: 50px;">
+	</div><br>
+
+	<input type="submit" name="" value="Submit" class="ghost-button-rounded-corners" style="height: 50px;margin-left:33%">
+
+	</div>
+	<br><br><br><br>
+
+</div>
+</body>
+</html>
